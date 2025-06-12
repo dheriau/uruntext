@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hizmetlerimiz - Uruntext</title>
+  <meta name="description" content="E-ticaret başarınızı artıracak ürün ve içerik yönetim hizmetlerimiz.">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-flex">
+      <a href="index.html" class="logo">Uruntext</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="hizmetler.html" class="active">Hizmetler</a></li>
+          <li><a href="paketler.html">Paketler</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero animated">
+      <div class="container">
+        <h1>Hizmetlerimiz</h1>
+        <p class="subtitle">Ürünlerinizi en iyi şekilde tanıtın, satışlarınızı artırın! N11, Trendyol, Hepsiburada ve daha fazlası için profesyonel ürün açıklamaları, kategori entegrasyonu ve toplu veri yönetimi.</p>
+      </div>
+      <div class="hero-bg-shape"></div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Ürün ve İçerik Yönetimi Hizmetlerimiz</h2>
+        <div class="features">
+          <div class="feature-card animated">
+            <i class="fa-solid fa-database"></i>
+            <h3>Ürün Veri Girişi ve Yönetimi</h3>
+            <p>Toplu ürün girişi (Excel/XML/API), özelliklerin standartlara göre düzenlenmesi, varyant yönetimi ve kategorilendirme.</p>
+          </div>
+          <div class="feature-card animated delay-1">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h3>SEO Uyumlu Ürün Açıklamaları</h3>
+            <p>Kısa ve uzun açıklama yazımı, anahtar kelime odaklı içerik, kopya içerik kontrolü.</p>
+          </div>
+          <div class="feature-card animated delay-2">
+            <i class="fa-solid fa-image"></i>
+            <h3>Görsel Düzenleme ve Optimizasyon</h3>
+            <p>Arka plan temizleme, pazar yeri boyut standartları, WebP ve JPEG dönüştürme.</p>
+          </div>
+        </div>
+        <div class="features" style="margin-top:2rem;">
+          <div class="feature-card animated delay-1">
+            <i class="fa-solid fa-code-branch"></i>
+            <h3>XML &amp; API Entegrasyon</h3>
+            <p>XML formatlama, validasyon, API ile ürün güncelleme ve otomatik veri güncelleme süreçleri.</p>
+          </div>
+          <div class="feature-card animated delay-2">
+            <i class="fa-solid fa-tags"></i>
+            <h3>Fiyat ve Stok Güncellemeleri</h3>
+            <p>Periyodik güncellemeler, kampanya ve indirim yönetimi.</p>
+          </div>
+          <div class="feature-card animated delay-3">
+            <i class="fa-solid fa-store"></i>
+            <h3>Pazar Yeri ve Web Sitesi Uyumlandırma</h3>
+            <p>Trendyol, Hepsiburada, N11, ÇiçekSepeti, Amazon, Shopify, WooCommerce ve IdeaSoft uyarlamaları.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section call-to-action">
+      <div class="container">
+        <h2 class="section-title">Ürün ve İçerik Yönetiminde Fark Yaratın!</h2>
+        <p class="subtitle">Hizmetlerimizi ve paketlerimizi inceleyin, markanızı dijitalde öne çıkarın.</p>
+        <a href="hizmetler.html" class="cta-button large">Hizmet Detayları</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-flex">
+      <div class="footer-links">
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="hizmetler.html">Hizmetler</a>
+        <a href="paketler.html">Paketler</a>
+        <a href="iletisim.html">İletişim</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <div class="footer-legal">
+        <a href="#">Gizlilik Politikası</a> | <a href="#">KVKK Metni</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2025 Uruntext.com | Tüm Hakları Saklıdır
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Animasyonlar için
+    document.querySelectorAll('.animated').forEach((el, i) => {
+      setTimeout(() => el.classList.add('visible'), 200 + i * 200);
+    });
+  </script>
+</body>
+</html>
