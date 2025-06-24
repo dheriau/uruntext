@@ -1,6 +1,6 @@
 
 // Konsol mesajı
-console.log("Uruntext.com'a Hoş Geldiniz!");
+console.log("Uruntext.com'a Hoş geldiniz!");
 
 // İletişim formu gönderim uyarısı
 document.querySelector('.contact-form')?.addEventListener('submit', function(e) {
